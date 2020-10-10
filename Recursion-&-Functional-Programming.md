@@ -5,7 +5,7 @@ make it a valuable tool.
 
 **Functional Programming**
 
-Consider for a moment a three dimensional vector \vec{m}
+Consider for a moment a three dimensional vector \vec{a}
 
 The following examples will use C++ code to explore how Haskell differs from other, what we will call imperative programming languages however you could just as 
 easily use Python, Java, or any others. 
