@@ -1,4 +1,4 @@
-#Bubble Sort Analysis (Blog Post 2)
+# Bubble Sort Analysis (Blog Post 2)
 Continuing on from our previous discussion regarding recursion and functional programming, let's take a look at one of the most intuative, albiet slow 
 sorting algorithms, the bubble sort. 
 
