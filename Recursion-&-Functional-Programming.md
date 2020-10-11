@@ -14,7 +14,7 @@ https://drive.google.com/drive/folders/1Z2IOAxIAiw2uuiEoq0cNkGFKUu6IuIq-?usp=sha
 In these images, the red dot indicates the current point on the ball we are considering and the numbers indicate the order in which we create dimples. 
 
 If we attempted to program this process using some iterative programming languages [^1], the code may look something like this: 
-
+```
 class node (bool flag_dipple, Node[5] adjacentNodes){
   flag_dipple = false; 
 }
@@ -28,7 +28,7 @@ void fillNodes(Node currNode){
     fillNodes(currNode); //Repeat the process with that adjacent Node as the current Node
     }
 }
-
+```
 This lengthy example is meant to explore the uses for and logic of recursion. **At it's most basic level, recursion is an event or function that recurs 
 multiple times**. In the case of the golf ball, the filling of adjacent nodes from a current node occurs recursively. Inside of the function for 
 fillNodes, we call the funciton fillNodes. You may have noticed a flaw in the program. Mainly, the golf ball would continue to create dimples forever as there is no checking of states to stop the process. Another issue is that the program is relatively slow, with a time complexity of O(n^2). 
@@ -36,10 +36,10 @@ fillNodes, we call the funciton fillNodes. You may have noticed a flaw in the pr
 Think for a moment of how you would do this process if there was no computer involved, just you and a knife. You might look at a spot on the golfball, 
 carve out a dimple, then shift slightly, check and see if there was a dimple, and if not continue. For the sake of this example let's assume that spots 
 on the ball have indexes and contain a value: dimple or no dimple. 
-
+```
 fillDimple(ball[n]) = true //for any index on the ball, create a dimple
 fillDimple(ball[S(n)]) = fillDimple(n)//for any index on the ball, create a dimple for all previous indexes
-
+```
 This is incredibly simpler than our previous code but is accomplishing the same task. Granted, in our functional programming example (the one directly
 above), we have indexes to represent spots on the ball, but the point is still fairly clear, **funcitonal programming languages such as Haskell allow us 
 to deal with recursion in much simpler terms**. 
