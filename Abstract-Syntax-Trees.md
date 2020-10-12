@@ -21,7 +21,7 @@ or distinct sets of characters and variables defined by the grammar. In our case
 ```
 {"x","=","y","+","2","*","3"}
 ```
-This set of tokens are then passed into a parser. The exact functioning of this parser is somewhat complicated and can be done a number of ways however,
+This set of tokens are then passed into a *parser*. The exact functioning of this parser is somewhat complicated and can be done a number of ways however,
 after it's running we should be left with an Abstract Syntax Tree: 
 
        assign
