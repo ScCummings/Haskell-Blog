@@ -1,4 +1,4 @@
-# Abstract Syntax Trees and Context Free Grammar
+# Abstract Syntax Trees and Context Free Grammar (Blog Post 3) 
 
 This blog post will cover a lot of what was already discussed in class while going further into the formal definition and history of context free grammar.
 A lot of the structure of the blog is based on the first lecture from the *Parsing Algorithms* series of videos from the YouTuber Dmitry Soshnikov of course
