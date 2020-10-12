@@ -17,7 +17,10 @@ for ease of implementation but that is not important to our mathematical underst
 
 Imagine for a moment that you had no idea how the Bubble Sort algorithm worked. Only that a list of integers was passed in and when it was passed out it
 was listed in the correct order from least to greatest. This idea, of knowing the output and input of a function but not knowing or caring exactly how
-it is done is sometimes colloquially called **"Black Boxing"**.[^1] 
+it is done is sometimes colloquially called **"Black Boxing"**. [^1] 
+
+The lambda calculus has three essential parts: variables, defintions of functions, and applications of functions. It would be written simplistically as: 
+$lambda$
 
 [^1] This occurs a lot in computer architecture textbooks that need to cover specific aspects of 
 how a component functions without exasperating the reader with the CMOS implementation or each exact logic gate. 
