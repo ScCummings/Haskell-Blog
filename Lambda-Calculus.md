@@ -30,7 +30,7 @@ Sort, it would look something like this:
 ```
 This might be a little confusing so let's do another example this time with a function whose algebra we can easily write out. How about the equation 
 ```
-f(x) = x<sup>2</sup>+2
+f(x) = x²+2
 ```
 
 [^1] This occurs a lot in computer architecture textbooks that need to cover specific aspects of 
