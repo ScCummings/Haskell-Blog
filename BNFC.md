@@ -32,8 +32,9 @@ Thankfully, with newer versions of the converter, this is no longer required.
 Peter Naur and John Backus are the engineers for which the form was named though a lot of the understanding of the form can be drawn from a 1963 report by 
 Naur called ALGOL 60. 
 
-One important aspect of BNFC or rather the history of BNFC that I want to touch on is the idea that truly this form is merely a way to define context-free
-grammars. In the previous blog post I explained that 
+BNFC is exactly what is sounds like, a means for from this form of *metasyntax* into Haskell. 
+
+In this way, BNF can merely be thought of as a way to rewrite context free grammar rules into code. 
 
  
  
