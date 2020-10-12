@@ -32,6 +32,15 @@ This might be a little confusing so let's do another example this time with a fu
 ```
 f(x) = x²+2
 ```
+The symbol λ is merely marking that a function variable follows (kind of like our "f of" in normal function notation.) and so we would write: 
+```
+λx. x²+2
+```
+
+From here we can pass in really any kind of numerical value and find an output. 
+
+From this it is interesting to think of implementations of other kinds of functions. When writing haskell code, it is pretty unique to see how different
+lines may become interpreted as lambda calculus. 
 
 [^1] This occurs a lot in computer architecture textbooks that need to cover specific aspects of 
 how a component functions without exasperating the reader with the CMOS implementation or each exact logic gate. 
