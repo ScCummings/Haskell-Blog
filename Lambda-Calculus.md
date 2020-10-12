@@ -20,7 +20,18 @@ was listed in the correct order from least to greatest. This idea, of knowing th
 it is done is sometimes colloquially called **"Black Boxing"**. [^1] 
 
 The lambda calculus has three essential parts: variables, defintions of functions, and applications of functions. It would be written simplistically as: 
-$lambda$
+```
+λ(function variable). (function implementation) 
+```
+What is fascinating about this is that using the lambda calculus, we can encode really any kind of function that we would want to. In the case of Bubble 
+Sort, it would look something like this: 
+```
+λ(list of integers). (for all indexes, compare every other index and switch if the value of the first is greater than the value of the second) 
+```
+This might be a little confusing so let's do another example this time with a function whose algebra we can easily write out. How about the equation 
+```
+f(x) = x^2+2
+```
 
 [^1] This occurs a lot in computer architecture textbooks that need to cover specific aspects of 
 how a component functions without exasperating the reader with the CMOS implementation or each exact logic gate. 
