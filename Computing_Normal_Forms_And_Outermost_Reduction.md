@@ -1,4 +1,4 @@
-# Computing Normal Forms (Blog Post 6) 
+# Computing Normal Forms and Outermost Reduction (Blog Post 6) 
 
 While the process of computing normal forms is not incredibly complicated, it is integral to analysing algorithms and developing invariants for them, both of 
 which are important steps that we will take over the course of this blog. The purpose of this blog post is not only to review the basics of Abstract Reduction 
@@ -42,3 +42,20 @@ elements 'a'. The elements that are non-reducible by our reductions are the sing
 
 I'm sure for a reader with a modicum of understanding regarding logic, this has been a very easy to follow example. Let's examine why any of this is important in 
 the context of software development. 
+
+Following the idea that sets will always reduce to a specific *Normal Form*, we can quickly see that the order in which we apply our rules doesn't really matter. 
+Take the above example for instance, which 11's we choose to reduce to 1's don't matter as we always reduce to the same *normal form* or set of *equivalence 
+classes*. This idea is called the *Church-Rosser Theorem*, named after the mathematicians Alonzo Church and J. Barkley Rosser who penned the first formal proof 
+of the theorem. 
+
+Since haskell uses a form of lambda calculus, the Church-Rosser Theorem applies to it. From the Church-Rosser theorem, we can make some interesting observations 
+about code that we write in haskell. Before we get there though, we need to understand something called *Outermost Reduction*. Informally, Outmost Reduction is a 
+kind of function evaluation which always evaulates arguments prior to evaulating the recursive function definition. From the Church-Rosser theorem, we know that 
+the order of reduction doesn't matter to us. However, from the perspective of termination, Outermost Reduction ensures termination if there is some normal form. 
+
+In fairness, I'm not quite sure why. But all this information is important in orderstanding a broader topic which is Lazy Evaluation. An aspect of Haskell that 
+seems to be almost as defining as its functional roots. 
+
+I hope to write a blog post about Lazy Evaluation in the future to dig deeper into what it means and why it matters in the context of software development. Be on 
+the lookout for that soon!
+
