@@ -1,4 +1,4 @@
-# Knuth-Bendix Completion (Blog 7)
+# Knuth-Bendix Completion (Complexity) (Blog 7)
 
 Based on the 1991 paper "An Introduction to Knuth-Bendix Completion" by A.J. Dick, this blog post will attempt to break down the major components of the paper as 
 well as draw ties between them and what we have learned so far both with regards to programming and computer science theory but also what we have learned about 
