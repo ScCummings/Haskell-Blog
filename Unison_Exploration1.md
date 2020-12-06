@@ -1,4 +1,4 @@
-# Unison Exploration (Blog Post 10)
+# Unison Exploration 1 (Blog Post 10)
 
 The purpose of this blog post is to document my exploration of the Unison programming language as well as some of it's most interesting implementations with regards 
 to its unique *content-addressed code*. 
