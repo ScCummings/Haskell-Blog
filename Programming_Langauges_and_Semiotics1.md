@@ -46,6 +46,6 @@ The above two lines may appear very different, though semantically they are the 
 that it describes how the language will look and be read by software engineers. Considering the fact that code bases are constantly in need of renovation or 
 redeployment, studying ways to make programming languages more readable by engineers is a necessary time saving strategy. 
 
-Check out my next two blog posts 17 and 18 to continue exploring the paper linked above
+Check out my next two blog posts 17 and 18 to continue exploring the paper linked above!
 
 
