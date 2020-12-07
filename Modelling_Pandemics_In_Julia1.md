@@ -45,5 +45,9 @@ the patients like age, income, and geographical location.
 + The final step of GAT based modeling is the *Instance* layer. This is probably the easiest to understand and most practical layer. It is concerned with 
 translating that *Formula Notation* into pure Julia code and performing the necessary computations to run it. 
 
+The talk then gets into a little bit more technical detail with regards to Julia and how it allows for the creation of more functional, mathematically based 
+models than other programming languges. I have focused a lot of my past blogs on assessing haskell-adjacent programming languages and so I will skip this piece 
+at least for this blog post and decide if I need to continue a dive into the language for a future post. 
+
 
 
